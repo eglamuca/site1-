@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Neon Casino</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/workspace/style.css">
+</head>
+<body>
+	<header class="site-header">
+		<h1 class="logo">Neon Casino</h1>
+		<nav class="nav">
+			<a href="#casino" class="nav-link">Casino</a>
+			<a href="#aware" class="nav-link">Gambling Aware</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="casino" class="panel">
+			<h2 class="panel-title">Welcome to the Neon Floor</h2>
+			<div class="image-wrap" aria-label="Casino illustration">
+				<img src="/workspace/assets/casino.svg" alt="Neon casino illustration" class="hero-image" />
+			</div>
+			<p class="lead">Play responsibly. Hover around for some neon magic.</p>
+			<button class="cta" data-press>Start Playing</button>
+		</section>
+
+		<section id="aware" class="panel">
+			<h2 class="panel-title">Gambling Aware</h2>
+			<div class="image-wrap" aria-label="Gambling aware">
+				<img src="/workspace/assets/gambling-aware.svg" alt="Gambling awareness ribbon" class="hero-image" />
+			</div>
+			<p class="muted">If the fun stops, stop. Seek help and set limits.</p>
+			<a href="https://www.begambleaware.org/" target="_blank" rel="noreferrer" class="link">Learn more</a>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>© <span id="year"></span> Neon Casino · Stay safe</p>
+	</footer>
+
+	<script src="/workspace/script.js"></script>
+</body>
+</html>
